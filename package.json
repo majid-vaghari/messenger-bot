@@ -1,0 +1,32 @@
+{
+  "name": "messengerbot",
+  "version": "0.1.0",
+  "description": "Telegram bot used to contact channel admins.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NTBA_FIX_319=1 node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/majid-vaghari/messenger-bot.git"
+  },
+  "keywords": [
+    "Telegram",
+    "bot",
+    "messenget",
+    "contact",
+    "admin"
+  ],
+  "author": "Majid Vaghari",
+  "license": "GPL-3.0+",
+  "bugs": {
+    "url": "https://github.com/majid-vaghari/messenger-bot/issues"
+  },
+  "homepage": "https://github.com/majid-vaghari/messenger-bot#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "eslint": "^4.13.1",
+    "node-telegram-bot-api": "^0.29.0"
+  }
+}
