@@ -66,3 +66,6 @@ build/
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+# Local configuration
+local_config.json

@@ -26,6 +26,10 @@
   "homepage": "https://github.com/majid-vaghari/messenger-bot#readme",
   "dependencies": {
     "dotenv": "^5.0.1",
-    "node-telegram-bot-api": "^0.30.0"
+    "node-telegram-bot-api": "^0.30.0",
+    "winston": "^2.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.2"
   }
 }
